@@ -1,3 +1,11 @@
+* {
+  background-color: #ffffee;
+  color: blue;
+}
+*:hover {
+  color: red;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -19,3 +27,21 @@ aside {
   overflow-y: auto;
 }
 
+ /* color, background, border  */
+nav li { 
+  color: red;
+}
+
+.logo {
+   width: auto;
+   height: 50px; 
+}
+
+table, th, tr {
+  cellspacing: 0;
+  border: 2px solid greenyellow;
+}
+
+main p {
+  line-height: 1.5;
+}
