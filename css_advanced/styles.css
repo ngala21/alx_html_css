@@ -146,10 +146,15 @@ body {
 /* ========== Testimonal Section ========== */
 .testimonial {
   background: #c271ff;
-  /* height: 50vh; */
+  padding: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding: 5rem;
+}
+
+.inner-testimonial {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
 .testimonial img {
@@ -157,12 +162,13 @@ body {
   width: 100px;
   height: 100px;
   overflow: hidden;
-}
+} 
 
 /* ========== End Testimonial ========== */
 
 /* ========== Tutorials ========== */
 .tutorials {
+  margin-right: 2rem;
   padding: 2rem;
 }
 .tutorials h2 {
@@ -191,7 +197,7 @@ body {
 
 .inner-semi-group {
   padding-left: 1rem;
-  padding-right: 0.4rem;
+  padding-right: 1rem;
 }
 
 
