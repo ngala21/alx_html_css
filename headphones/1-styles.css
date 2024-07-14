@@ -186,14 +186,68 @@ button {
 
 /* ========== RESPONSIVE DESIGN (MOBILE PHONE) END ========== */
 
+/* ========== WHAT WE DO ========== */
+/* === WHAT WE DO... SECTION STYLES === */
+.what__we__do {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+}
 
-/* === HEADER STYLES === */
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--black-pearl);
+
+}
+
+.heading h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.heading p {
+  padding: 30px 250px 80px;
+}
+
+.offer__content {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  padding: 20px 50px 100px;
+  align-items:baseline;
+}
+
+.offer {
+  width:150px;
+  height:130px;
+  align-content: center;
+}
+
+.offer h3 {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px 0 20px;
+}
+
+.offer p {
+  font-size: 10px;
+  font-weight: normal;
+}
 
 /* Media queries for responsive design */
-
-
-
-
-
-/* ========== CSS Variables End ========== */
-/* ========== CSS Variables End ========== */
+@media (max-width: 480px) {
+  .what__we__do {
+      padding: 20px 10px;
+  }
+  .offer__content {
+      flex-direction: column;
+      align-items: center;
+  }
+  .offer {
+      margin: 10px 0;
+  }
+}
+/* ========== WHAT WE DO End ========== */
