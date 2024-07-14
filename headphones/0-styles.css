@@ -1,0 +1,195 @@
+ /* 
+** A Totally Real Project by a total "Software Engineer"
+@ author - Ngala21
+*
+*/
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* ========== CSS Reset ========== */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+/* ========== CSS Reset End ========== */
+
+/* ========== CSS Variables ========== */
+:root {
+  --color-primary: #ff6565;
+  --color-secondary: #071629;
+  --color-success: #979797;
+
+  --color-white: #fff;
+  --color-black: #000;
+
+  --container-width-lg: 1000px;
+  --container-width-md: 720px;
+  --container-width-sm: 480px;
+}
+/* ========== CSS Variables End ========== */
+
+/* ========== General Styling ========== */
+body {
+  font-family: "source sans", sans-serif;
+}
+
+a {
+  color: var(--color-white);
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+.btn {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border: var(--color-success);
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+.container {
+  background-image:url(images/headphones_hero_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height:fit-content;
+
+}
+
+/* ========== CSS Variables End ========== */
+
+/* ========== NAVIGATION ========== */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  margin-left: 1rem;
+}
+
+.nav__logo {
+  width: 9rem;
+}
+
+.nav__menu {
+  display: flex;
+  gap:2rem;
+}
+.nav__menu__item {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* ========== NAVIGATION End ========== */
+
+/* ========== HEADER ========== */
+.header__introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-white);
+  margin: 10rem 10rem 0 10rem;
+}
+
+.introduction_intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introduction__intro h2 {
+  font-size: 1.5rem;
+  font-weight: 1000;
+}
+
+.introduction_intro p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.button {
+  margin-top: 3rem;
+}
+
+.introduction__content {
+  margin-top: 4rem;
+  align-content: center;
+}
+
+.introduction__content p {
+  font-size: 16px;
+  font-weight: normal;
+  padding: 1rem 4rem;
+  margin-bottom: 7rem;
+  width: 637px;
+  height: 107px;
+  line-height: 26px;
+}
+/* ========== HEADER End ========== */
+
+/* ========== RESPONSIVE DESIGN (MOBILE PHONE) ========== */
+@media screen and (max-width: 480px) {
+  .container {
+    background-size: fit-content;
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .nav__menu {
+    flex-direction: column;
+    align-items: center;
+}
+.nav__menu__item {
+    margin: 10px 0;
+}
+.introduction__intro {
+    padding: 20px 10px;
+}
+.introduction__intro h2 {
+    font-size: 1.5rem;
+    width: 357px;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: auto;
+    margin: 1rem;
+}
+.introduction_intro p {
+    
+}
+button {
+  height: 44px;
+  width: 162px;
+}
+
+.introduction__content {
+  width: 335px;
+  height: 182px;
+}
+}
+
+/* ========== RESPONSIVE DESIGN (MOBILE PHONE) END ========== */
+
+
+/* === HEADER STYLES === */
+
+/* Media queries for responsive design */
+
+
+
+
+
+/* ========== CSS Variables End ========== */
+/* ========== CSS Variables End ========== */
